@@ -1,9 +1,9 @@
 import { Link } from "@tanstack/solid-router";
 
-const activeColor = () => ({ class: "bg-gray-700" });
+const activeColor = () => ({ class: "bg-orange-600" });
 export function Header() {
   return (
-    <header class="flex gap-2 text-lg bg-orange-600 text-white absolute top-5 before:content-['*'] before:absolute before:right-full before:bg-orange-600 before:w-full before:p-2">
+    <header class="flex gap-2 text-lg bg-gray-700 text-white absolute top-5 before:content-['*'] before:absolute before:right-full before:bg-gray-600 before:w-full before:p-2">
       <nav class="*:inline-block *:p-2 *:uppercase *:font-light">
         <Link
           to="/"
