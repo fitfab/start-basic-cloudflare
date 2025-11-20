@@ -25,46 +25,31 @@ function Home() {
       <p>{data().myVar}</p>
 
       <Carousel>
-        <div class="bg-amber-400 bg-cover w-2xl h-24">
+        <div class="bg-lime-200 bg-fit w-2xl h-96">
+          <h2>image one</h2>
+          <img src="/images/uvm5l73_1.jpg" class="w-full" />
+        </div>
+        <div class="bg-amber-300 bg-cover w-2xl h-24">
+          <h2>image 2</h2>
           <img src="/images/uvm5l73_1.jpg" class="w-full" />
         </div>
         <div class="bg-amber-400 bg-cover w-2xl h-24">
+          <h2>image 3</h2>
           <img src="/images/uvm5l73_1.jpg" class="w-full" />
         </div>
-        <div class="bg-amber-400 bg-cover w-2xl h-24">
+        <div class="bg-pink-500 bg-cover w-2xl h-24">
+          <h2>image 4</h2>
           <img src="/images/uvm5l73_1.jpg" class="w-full" />
         </div>
-        <div class="bg-amber-400 bg-cover w-2xl h-24">
+        <div class="bg-amber-600 bg-cover w-2xl h-24">
+          <h2>image 5</h2>
           <img src="/images/uvm5l73_1.jpg" class="w-full" />
         </div>
-        <div class="bg-amber-400 bg-cover w-2xl h-24">
-          <img src="/images/uvm5l73_1.jpg" class="w-full" />
-        </div>
-        <div class="bg-amber-400 bg-cover w-2xl h-24">
+        <div class="bg-blue-700 bg-cover w-2xl h-24">
+          <h2>image 6</h2>
           <img src="/images/uvm5l73_1.jpg" class="w-full" />
         </div>
       </Carousel>
-
-      <div class="bg-pink-400 overflow-clip h-80 w-full">
-        {/* slide container*/}
-        <div class="flex *:flex-none overflow-x-auto scroll-smooth snap-x snap-mandatory h-full gap-5 *:snap-start">
-          <div class="bg-amber-400 bg-cover w-2xl h-24">
-            <img src="/images/uvm5l73_1.jpg" class="w-full" />
-          </div>
-          <div class="bg-amber-400 bg-cover w-2xl h-24">
-            <img src="/images/uvm5l73_1.jpg" class="w-full" />
-          </div>
-          <div class="bg-amber-400 bg-cover w-2xl h-24">
-            <img src="/images/uvm5l73_1.jpg" class="w-full" />
-          </div>
-          <div class="bg-amber-400 bg-cover w-2xl h-24">
-            <img src="/images/uvm5l73_1.jpg" class="w-full" />
-          </div>
-        </div>
-        <nav>
-          <button>left</button> <button>right</button>
-        </nav>
-      </div>
     </div>
   );
 }

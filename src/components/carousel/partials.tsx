@@ -47,7 +47,7 @@ export interface ButtonProps extends Component {
 export const Button = ({ direction, ...rest }: ButtonProps) => {
   return (
     <button
-      class="bg-neutral-500 hover:bg-neutral-900 disabled:bg-neutral-300 text-white p-2 rounded-full first:mr-4"
+      class="bg-neutral-500 hover:bg-neutral-900 disabled:bg-neutral-300 text-white p-2 rounded-full first:mr-4 cursor-pointer"
       {...rest}
     >
       <svg
