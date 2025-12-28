@@ -73,7 +73,7 @@ function RootDocument({ children }: { children: Solid.JSX.Element }) {
       </head>
       <body class=" flex justify-center">
         <HeadContent />
-        <div class="container bg-gray-400 min-h-screen relative pt-16 bg-[url(/images/uvm5l73_1.jpg)] bg-no-repeat bg-center bg-auto">
+        <div class="container bg-gray-400 min-h-screen relative pt-16 bg-auto">
           <Header />
           <div class="h-full p-2">{children}</div>
         </div>
